@@ -10,7 +10,7 @@ export default function Page() {
     e.preventDefault()
 
     if (!file) {
-      alert('Please select a file to upload.')
+      alert('Please select a gate 1 file to upload.')
       return
     }
 
@@ -67,7 +67,7 @@ export default function Page() {
               setFile(files[0])
             }
           }}
-          accept="image/png, image/jpeg"
+          accept="image/png, image/jpeg, video/mp4"
         />
         <button type="submit" disabled={uploading}>
           Upload

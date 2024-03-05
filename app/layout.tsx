@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Next.js',
-  description: 'AWS S3 Upload Example',
+  title: 'repent',
+  description: 'Gate 1 Recordings',
 }
 
 export default function RootLayout({
